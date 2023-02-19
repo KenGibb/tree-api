@@ -9,7 +9,7 @@ const wildAnimalSchema = new mongoose.Schema({
     type: {
         type: String
     },
-    isSqueaky: {
+    isDangerous: {
         type: Boolean,
         required: true,
         default: false
